@@ -6,14 +6,14 @@ from logging.handlers import RotatingFileHandler
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7036134188:AAE_VpR1pzYANbKy0uphKcMscc6ceIozat4")
 APP_ID = int(os.environ.get("APP_ID", "29324866"))
 API_HASH = os.environ.get("API_HASH", "2d41c2224fd999a81f6c90ce68b0454a")
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002199584516"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002494644953"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "7233389466"))
 PORT = os.environ.get("PORT", "8022")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Himanshu:Himanshu0987@cluster0.7wked.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Himanshu:Himanshu0987@cluster0.7wked.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 #Shortner (token system) 
